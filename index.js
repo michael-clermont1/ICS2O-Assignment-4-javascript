@@ -1,9 +1,7 @@
-var lol=prompt("Please enter circle")
-if(lol==="circle"){
-    var tr1=Math.PI
-    var tr2=Number(prompt("Enter the diameter."))
-    var tr3=0.25*Math.PI
-    confirm((tr2*tr2*tr3))
-    prompt("Now for the circumference of a circle.(Just click next)")
-    prompt((tr1*tr2))
-}
+
+var tr1=Number(prompt("Enter the diameter of a circle to calculate it's area and circumference."));
+
+var tr1_area = 0.25*Math.PI*Math.pow(tr1,2);
+var tr1_cir = Math.PI*tr1;
+
+confirm("Area= " + tr1_area + " Circumference= " + tr1_cir);
